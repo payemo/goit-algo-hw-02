@@ -27,6 +27,8 @@ class HashTable:
             for idx, pair in enumerate(self.table[key_hash]):
                 if pair[0] == key:
                     del self.table[key_hash][idx]
+                    return True
+        return False
 
     def get(self, key):
         key_hash = self.hash_function(key)
