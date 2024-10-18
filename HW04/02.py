@@ -25,4 +25,4 @@ def dbinary_search(darr: list[float], s: float):
 
 darr = [0.52124, 5.123124, 8.2512, 10.12521, 11.20124, 11.98372, 14.52153]
 print(dbinary_search(darr, 0.52124))
-print(dbinary_search(darr, 0.52512))
+print(dbinary_search(darr, 9.5))
